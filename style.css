@@ -199,3 +199,13 @@ a {
 .he1 {
   margin-left: 6%;
 }
+#butt {
+  box-sizing: border-box;
+  border: solid white;
+  background-color: black;
+  color: white;
+}
+#pic3 {
+  width: 600px;
+  height: 350px;
+}
