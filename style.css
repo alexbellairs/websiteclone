@@ -8,6 +8,13 @@
 
 a {
   color: inherit;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+#red {
+  color: rgb(189, 14, 14);
 }
 .navbar {
   display: flex;
@@ -25,7 +32,8 @@ a {
 .floating-menu {
   width: 90%;
   position: fixed;
-  z-index: 100;
+  z-index: 1;
+  top: 0;
 }
 .navbar2 {
   display: flex;
