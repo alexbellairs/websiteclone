@@ -1,9 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Akshar:wght@600&family=Roboto+Condensed&display=swap");
 
 * {
   margin-left: 50px;
   margin-right: 50px;
-  font-family: "Roboto Condensed", sans-serif;
+  font-family: "Akshar", sans-serif;
 }
 
 a {
@@ -17,7 +17,7 @@ a {
   background-size: cover;
   box-sizing: border-box;
   font-size: 18px;
-  justify-content: space-evenly;
+  /* justify-content: space-evenly; */
   padding-top: 40px;
   padding-bottom: 40px;
   padding-left: 30%;
