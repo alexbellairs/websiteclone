@@ -23,9 +23,9 @@ a {
   padding-left: 30%;
 }
 .floating-menu {
-  z-index: 100;
   width: 90%;
   position: fixed;
+  z-index: 100;
 }
 .navbar2 {
   display: flex;
@@ -197,7 +197,9 @@ a {
   border-top: solid white;
   padding-top: 10px;
   padding-bottom: 10px;
+  padding-right: 10%;
   margin-left: 6%;
+  font-size: 11px;
 }
 .he1 {
   margin-left: 6%;
