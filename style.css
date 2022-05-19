@@ -18,7 +18,8 @@ a {
   box-sizing: border-box;
   font-size: 18px;
   justify-content: space-evenly;
-  padding-bottom: 60px;
+  padding-top: 40px;
+  padding-bottom: 40px;
   padding-left: 30%;
 }
 .floating-menu {
@@ -36,7 +37,8 @@ a {
   box-sizing: border-box;
   padding-top: 15px;
   padding-bottom: 15px;
-  text-align: center;
+  text-align: left;
+  padding-right: 30%;
 }
 .navbar3 {
   display: flex;
@@ -49,6 +51,7 @@ a {
   text-align: center;
   padding-top: 10px;
   padding-bottom: 10px;
+  padding-right: 14%;
 }
 #h1 {
   text-align: center;
