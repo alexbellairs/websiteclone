@@ -13,12 +13,18 @@ a {
   display: flex;
   justify-content: flex-end;
   color: black;
-  background-color: white;
+  background-image: url(images/icons/menu.jpg);
+  background-size: cover;
   box-sizing: border-box;
-  font-size: 22px;
+  font-size: 18px;
   justify-content: space-evenly;
   padding-bottom: 60px;
-  padding-left: 400px;
+  padding-left: 30%;
+}
+.floating-menu {
+  z-index: 100;
+  width: 90%;
+  position: fixed;
 }
 .navbar2 {
   display: flex;
@@ -112,7 +118,8 @@ a {
 .p3 {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
+  text-align: left;
 }
 #pic2 {
   width: 25%;
@@ -147,4 +154,41 @@ a {
 #h5 {
   color: rgb(189, 14, 14);
   font-weight: lighter;
+}
+.foot {
+  color: rgb(214, 213, 213);
+  box-sizing: border-box;
+  border: none;
+  background-color: rgb(65, 65, 65);
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.foot2 {
+  color: white;
+  background-color: black;
+}
+.p5 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-right: 50%;
+  text-align: left;
+}
+.list {
+  list-style-type: none;
+}
+.soc {
+  padding-left: 5%;
+}
+.foot3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  flex-wrap: nowrap;
+  color: white;
+  background-color: black;
+  box-sizing: border-box;
+  border-top: solid white;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
