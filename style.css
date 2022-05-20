@@ -24,16 +24,15 @@ a:hover {
   background-size: cover;
   box-sizing: border-box;
   font-size: 18px;
-  /* justify-content: space-evenly; */
   padding-top: 40px;
   padding-bottom: 40px;
   padding-left: 30%;
 }
 .floating-menu {
-  width: 90%;
-  position: fixed;
-  z-index: 1;
-  top: 0;
+  width: 100%;
+  z-index: 100;
+  position: sticky;
+  top: 0px;
 }
 .navbar2 {
   display: flex;
@@ -59,7 +58,6 @@ a:hover {
   text-align: center;
   padding-top: 10px;
   padding-bottom: 10px;
-  padding-right: 14%;
 }
 #h1 {
   text-align: center;
